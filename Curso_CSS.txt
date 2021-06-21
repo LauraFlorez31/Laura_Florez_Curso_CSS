@@ -1,0 +1,131 @@
+<html>
+   <head>
+      <style>
+      p{
+         color:white;
+         background-color:black;
+         front-size:140%;
+      }
+      </style>
+       <link rel="stylesheet" href="example.css">
+      #intro .first em {
+        color:yellow;
+        background-color:black 
+      <style>
+      body {
+        color: Orange
+        font-family: Arial;
+      } 
+
+    p.serif {
+     font-family: "Times New Roman", Times, serif;
+    }
+    p.sansserif {
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    p.monospace {
+      font-family: "Courier New", Courier, monospace;
+    }
+    p.cursive {
+      font-family: Florence, cursive;
+    }
+    p.fantasy {
+      font-family: Blippo, fantasy;
+    }  
+    
+    p.small {
+        front-size: small;
+    }
+     </style> 
+
+    p.bold {
+       font-weight: bold;
+    }
+
+    p.right {
+      text-align: right;
+    }
+     p.dashed {
+      padding: 10px;
+      border: 5px solid yellow;
+      border-style: dashed;
+    }
+
+     p.tokyo {
+      padding: 40px;
+      backgroung-image: url("T_K.png");
+      color: white;
+    }
+    ul.pers_t {
+    list-style-type: circle;
+    }
+   </head>
+   <body>
+      <div id="intro">
+      <p> class="first"><em>Laura Florez.</em></p>
+      </div>
+      <p>SENA. </p>
+   <p class="serif">
+   Algunos animes:
+   </p>
+   <p class="sansserif">
+   Black Clover.
+   </p> 
+   <p class="monospace">
+   Jujutsu Kaisen.
+   </p> 
+   <p class="cursive">
+   Kemono Jihen.
+   </p> 
+   <p class="fantasy">
+   Akame ga Kill!
+   </p> 
+
+    </p class="small">
+      Estos animes ya estan vistos.
+    </p>
+    <p class="bold"> Anime que estoy viendo a "bold" weight.
+     </p>
+    <p class="right">Tate no Yuusha no Nariagari<strong>right.</strong></p>
+    h1 {
+      color: yellow;
+      font-size: 40pt;
+      text-shadow: 8px 5px 7px orange;
+     }
+
+     <p class="dashed"> Animes que vi hace tiempo  </p>
+     <p class="tokyo"> Tokyo Ghoul. </p>
+      <ul class="pers_t">
+        <li>Kaneki</li>
+        <li>Touka</li>
+        <li>Suzuya</li>
+        </ul>
+     div{
+       width: 100px;
+       height: 100px;
+       border-radius: 50px;
+       background-color: black;
+      }
+     div{
+       width: 400px;
+       height: 200px;
+       border-radius: 130px;
+       background-color: green;
+       transform: rotate(10deg);
+      }
+     div{
+       width: 200px;
+       height: 200px;
+       background-color: red;
+       transform: rotate(10deg);
+       animation-name: rotcolor;
+       animation-duration: 1s;
+      }
+     @keyframes rotcolor {
+       0% {background-color: red;}
+       50% {background-color: pink;}
+       100% {background-color: white;}
+      }
+   </body>
+</html>
+
